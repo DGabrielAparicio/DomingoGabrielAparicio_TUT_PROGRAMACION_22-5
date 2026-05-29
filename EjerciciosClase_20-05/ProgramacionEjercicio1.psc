@@ -6,7 +6,7 @@
 //	caja. Al finalizar, el sistema debe mostrar en pantalla la cantidad total
 //  de ventas procesadas y el dinero total acumulado. Restricción: Evite
 //	que se sumen montos negativos mostrando un mensaje de
-//	advertencia.
+//	advertencia
 Algoritmo Ejercicio1
 	Definir venta,total Como Real
 	Definir contador Como Entero
