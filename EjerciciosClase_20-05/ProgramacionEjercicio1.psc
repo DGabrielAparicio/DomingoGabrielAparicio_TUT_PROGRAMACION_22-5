@@ -1,10 +1,10 @@
 //  Ejercicio 1
 //  Desarrolle un programa para registrar las ventas diarias de un
-//	comercio. El usuario deber· ingresar el monto de cada venta de forma
+//	comercio. El usuario deber√° ingresar el monto de cada venta de forma
 //	sucesiva. El programa debe continuar solicitando montos hasta que
-//	se ingrese una venta igual a cero (0), lo cual indicar· el cierre de la
+//	se ingrese una venta igual a cero (0), lo cual indicar√° el cierre de la
 //	caja. Al finalizar, el sistema debe mostrar en pantalla la cantidad total
-//  de ventas procesadas y el dinero total acumulado. RestricciÛn: Evite
+//  de ventas procesadas y el dinero total acumulado. Restricci√≥n: Evite
 //	que se sumen montos negativos mostrando un mensaje de
 //	advertencia.
 Algoritmo Ejercicio1
@@ -17,6 +17,7 @@ Algoritmo Ejercicio1
 	Escribir " Para terminar ingrese 0 "
 	Escribir "INGRESE VENTA"
 	Leer venta	
+
 	Mientras venta <> 0 Hacer
 		Si venta < 0 Entonces
 			Escribir " El valor de la venta ingresada en NEGATIVO, ingrese un valor positivo"
@@ -30,5 +31,7 @@ Algoritmo Ejercicio1
 	FinMientras
 	Escribir "Cantidad de Ventas procesadas:", contador
 	Escribir "VENTA TOTAL: $ ",total
-FinAlgoritmo
+
+FinAlgoritmo 
+
 
